@@ -1,4 +1,15 @@
 # fFruit-tecognition-using-google-vision-tensor-flow
+The code is designed to perform two main tasks: object detection and label recognition of food in images. Here's a breakdown of how the code works:
+
+Import required libraries: The code starts by importing the necessary libraries including OpenCV, NumPy, TensorFlow, Google Cloud Vision API, and datetime.
+
+Set up authentication: The code sets up Google authentication client key by setting the 'GOOGLE_APPLICATION_CREDENTIALS' environment variable to the location of the client key file.
+
+Set up paths and parameters: The code sets up the path to the image folder, food type (fruit or vegetable), object detection model name, path to the model, and detection threshold. It also loads the label map and the list of known food names.
+
+Define functions: The code defines several functions for labeling images, detecting food in images, and drawing bounding boxes around detected food.
+
+Main function: The main function of the code reads the images from the specified image folder, performs object detection and label recognition on each image, and saves the labeled images in a new folder.
 computer vision
 Here's how the main function works:
 
