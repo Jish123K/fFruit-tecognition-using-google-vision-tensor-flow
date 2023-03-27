@@ -26,3 +26,8 @@ TensorFlow object detection API: The code uses the TensorFlow object detection A
 Google Cloud Vision API: The code uses the Google Cloud Vision API to perform label recognition on images. Therefore, you need to have a Google Cloud Platform account and set up the Google Cloud Vision API.
 Object detection model: The code uses the 'ssd_mobilenet_v2_coco_2018_03_29' object detection model. You can use a different object detection model if you want, but you will need to update the code accordingly.
 Label map and list of known food names: The code requires a label map and a list of known food names to filter out non-food labels. You can create your own label map and food name list, or use the ones provided in the code.
+Tenchologies used:
+1.deep learning
+2.Tensor flow
+3.Python
+4.Artifical intelligence 
